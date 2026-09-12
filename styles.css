@@ -176,8 +176,8 @@ section { padding-block: var(--section-mobile); }
 .hero-trust .ico { color: var(--accent-2); font-weight: 700; margin-right: .3rem; }
 
 /* Floating card collage */
-.hero-collage { position: relative; min-height: 360px; }
-@media (min-width: 720px) { .hero-collage { min-height: 460px; } }
+.hero-collage { position: relative; width: 100%; aspect-ratio: 1 / 1; max-width: 520px; margin-inline: auto; }
+@media (min-width: 960px) { .hero-collage { margin-inline: 0; } }
 .hero-float {
   position: absolute; width: 46%; aspect-ratio: 4/5; object-fit: cover;
   border-radius: 16px; box-shadow: 0 24px 50px rgba(23,19,15,.25);
