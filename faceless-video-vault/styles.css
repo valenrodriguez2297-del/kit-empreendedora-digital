@@ -12,6 +12,7 @@ a{color:inherit}
 .center{text-align:center}
 .script{font-family:'Monsieur La Doulaise',cursive;font-weight:400;line-height:.9}
 .serif{font-family:'Gilda Display',serif;font-weight:400}
+.italic{font-family:'Playfair Display',serif;font-style:italic;font-weight:500;line-height:1.1}
 .eyebrow{font-size:13px;letter-spacing:.34em;text-transform:uppercase;color:var(--cocoa);font-weight:500;margin:0 0 16px}
 .eyebrow.light{color:var(--greige)}
 .small-caps{font-size:13px;letter-spacing:.2em;text-transform:uppercase;font-weight:500;margin:0}
@@ -19,13 +20,13 @@ a{color:inherit}
 .body{font-size:17px;color:var(--cocoa);margin:0}
 .lead{font-size:clamp(22px,3vw,32px);line-height:1.25;margin:0}
 .h2{font-size:clamp(30px,4.4vw,52px);line-height:1.1;margin:0 0 20px}
-.h2-script{font-size:clamp(84px,13vw,170px);margin:0}
+.h2-script{font-size:clamp(40px,6.2vw,76px);margin:0}
 .h2-script.big{margin:8px 0 24px}
 
 /* nav */
 .nav{position:sticky;top:0;z-index:10;background:rgba(243,238,231,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--linen)}
 .nav-inner{display:flex;align-items:center;justify-content:space-between;height:68px}
-.brand{font-family:'Monsieur La Doulaise',cursive;font-size:38px;text-decoration:none;line-height:1}
+.brand{font-family:'Playfair Display',serif;font-style:italic;font-weight:500;font-size:22px;text-decoration:none;line-height:1}
 
 /* buttons */
 .btn{display:inline-block;background:var(--espresso);color:var(--cream);font-size:14px;letter-spacing:.2em;text-transform:uppercase;font-weight:500;padding:20px 34px;text-decoration:none;transition:background .2s,transform .2s}
@@ -72,7 +73,7 @@ a{color:inherit}
 .guarantee .small-caps{margin-bottom:10px}
 .fine{font-size:13px;color:var(--cocoa);margin:36px 0 0}
 .footer{padding:40px 0 56px;text-align:center;border-top:1px solid var(--linen)}
-.foot-script{font-size:56px;color:var(--cocoa)}
+.foot-script{font-size:28px;color:var(--cocoa)}
 
 /* responsive */
 @media (max-width:900px){
@@ -85,7 +86,7 @@ a{color:inherit}
   .section{padding:72px 0}
 }
 @media (max-width:520px){
-  .brand{font-size:30px;white-space:nowrap}
+  .brand{font-size:16px;white-space:nowrap}
   .btn-sm{white-space:nowrap;padding:12px 16px;font-size:11px;letter-spacing:.14em}
   .hero{padding-top:40px}
   .btn-lg{width:100%;text-align:center;padding:22px 20px}
