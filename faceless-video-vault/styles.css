@@ -42,7 +42,7 @@ a{color:inherit}
 .hero-copy .lead{margin-bottom:36px}
 .hero-actions{display:flex;flex-wrap:wrap;align-items:center;gap:20px 28px}
 .hero-photos{display:flex;gap:14px;height:620px}
-.ph{width:100%;object-fit:cover}
+.ph{display:block;width:100%;object-fit:cover;background:var(--linen)}
 .ph-a{flex:1;height:100%;min-width:0}
 .ph-col{flex:1;display:flex;flex-direction:column;gap:14px;min-width:0}
 .ph-b{flex:1;min-height:0}
