@@ -52,7 +52,7 @@ a{color:inherit}
 /* strip */
 .strip{overflow:hidden;padding:0 0 8px}
 .strip-row{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
-.strip-row img{width:100%;height:340px;object-fit:cover}
+.strip-row video{display:block;width:100%;height:340px;object-fit:cover;background:var(--linen)}
 
 /* sections */
 .section{padding:104px 0}
@@ -81,8 +81,8 @@ a{color:inherit}
   .hero-photos{height:460px}
   .cards{grid-template-columns:1fr}
   .strip-row{grid-template-columns:repeat(3,1fr)}
-  .strip-row img:nth-child(n+4){display:none}
-  .strip-row img{height:260px}
+  .strip-row video:nth-child(n+4){display:none}
+  .strip-row video{height:260px}
   .section{padding:72px 0}
 }
 @media (max-width:520px){
